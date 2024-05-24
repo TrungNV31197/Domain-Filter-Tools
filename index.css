@@ -1,0 +1,204 @@
+.home-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #c7bcab;
+}
+.home-container01 {
+  flex: 0 0 auto;
+  width: 60%;
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.home-container02 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  font-size: 14px;
+  align-items: center;
+  justify-content: center;
+}
+.home-text {
+  color: var(--dl-color-gray-black);
+  font-style: normal;
+  font-weight: 600;
+}
+.home-container03 {
+  width: 100%;
+  display: flex;
+  position: relative;
+  font-size: 14px;
+  margin-top: var(--dl-space-space-halfunit);
+  align-items: center;
+  justify-content: flex-start;
+}
+.home-text01 {
+  color: var(--dl-color-gray-black);
+  font-style: normal;
+  font-weight: 500;
+}
+.home-text02 {
+  color: var(--dl-color-danger-700);
+}
+.home-container04 {
+  width: 100%;
+  height: 180px;
+  display: flex;
+  font-size: 14px;
+  margin-top: var(--dl-space-space-halfunit);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.home-textarea {
+  flex: 1;
+  color: var(--dl-color-gray-black);
+  height: 100%;
+  background-color: var(--dl-color-gray-900);
+}
+.home-container05 {
+  width: 100%;
+  display: flex;
+  font-size: 14px;
+  margin-top: var(--dl-space-space-halfunit);
+  align-items: center;
+  justify-content: flex-start;
+}
+.home-text04 {
+  color: var(--dl-color-gray-black);
+  font-style: normal;
+  font-weight: 500;
+}
+.home-textinput {
+  flex: 1;
+  color: var(--dl-color-gray-black);
+  width: auto;
+  margin-left: var(--dl-space-space-halfunit);
+  background-color: var(--dl-color-gray-900);
+}
+.home-container06 {
+  width: 100%;
+  display: flex;
+  font-size: 14px;
+  margin-top: var(--dl-space-space-halfunit);
+  align-items: center;
+  justify-content: flex-start;
+}
+.home-text08 {
+  color: var(--dl-color-gray-black);
+  font-style: normal;
+  font-weight: 500;
+}
+.home-select {
+  margin-left: var(--dl-space-space-oneandhalfunits);
+}
+.home-textinput1 {
+  flex: 1;
+  color: var(--dl-color-gray-black);
+  margin-left: var(--dl-space-space-oneandhalfunits);
+  background-color: var(--dl-color-gray-900);
+}
+.home-container07 {
+  width: 100%;
+  display: flex;
+  font-size: 14px;
+  margin-top: var(--dl-space-space-halfunit);
+  align-items: center;
+  justify-content: flex-start;
+}
+.home-text09 {
+  color: var(--dl-color-gray-black);
+  font-style: normal;
+  font-weight: 500;
+}
+.home-select1 {
+  margin-left: var(--dl-space-space-oneandhalfunits);
+}
+.home-container08 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  font-size: 14px;
+  margin-top: var(--dl-space-space-halfunit);
+  align-items: flex-start;
+  justify-content: center;
+}
+.home-button {
+  color: var(--dl-color-gray-white);
+  width: var(--dl-size-size-xxlarge);
+  height: var(--dl-size-size-small);
+  transition: 0.3s;
+  animation-name: none;
+  animation-delay: 0s;
+  background-color: var(--dl-color-gray-500);
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+.home-button:hover {
+  cursor: pointer;
+  background: chocolate;
+}
+.home-container09 {
+  width: 100%;
+  display: flex;
+  font-size: 14px;
+  margin-top: var(--dl-space-space-halfunit);
+  align-items: center;
+  justify-content: flex-start;
+}
+.home-text13 {
+  color: var(--dl-color-gray-black);
+  font-style: normal;
+  font-weight: 500;
+}
+.home-container10 {
+  width: 100%;
+  height: 180px;
+  display: flex;
+  font-size: 14px;
+  margin-top: var(--dl-space-space-halfunit);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.home-textarea1 {
+  flex: 1;
+  color: var(--dl-color-gray-black);
+  height: 100%;
+  background-color: var(--dl-color-gray-900);
+}
+.home-container11 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  font-size: 14px;
+  align-items: center;
+  justify-content: flex-start;
+}
+.home-button1 {
+  color: var(--dl-color-gray-white);
+  transition: 0.3s;
+  background-color: var(--dl-color-gray-500);
+}
+.home-button1:hover {
+  cursor: pointer;
+  background: chocolate;
+}
+.home-button2 {
+  color: var(--dl-color-gray-white);
+  transition: 0.3s;
+  margin-left: var(--dl-space-space-halfunit);
+  background-color: var(--dl-color-gray-500);
+}
+.home-button2:hover {
+  cursor: pointer;
+  background: chocolate;
+}
